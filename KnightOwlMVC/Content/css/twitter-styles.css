@@ -1,0 +1,92 @@
+﻿#twitterAPI{
+  overflow:auto;
+}
+
+#tweets {
+  padding: 20px 20px 0px 20px;
+  list-style-type: none;
+  font-size:0.8em;
+  overflow:auto;
+}
+
+#tweets li {
+  padding-bottom:20px;
+  overflow:auto;
+}
+
+.user, .tweet, .timePosted {
+  float:left;
+}
+
+.user {
+  margin-right:10px;
+}
+
+.tweet {
+  width:45%;
+  margin-right:10px;
+}
+
+.timePosted {
+  margin-right:10px;
+}
+
+.user {
+  clear:left;
+}
+
+.user a {
+
+}
+
+.user span span {
+  
+  display:block;
+  margin-top:10px;
+}
+
+.user img, .user a > span {
+  float:left;
+  border-radius: 50%;
+}
+
+.interact {
+  float:right;
+  width:15%;
+}
+
+.interact a {
+  margin-left:5px;
+  float:left;
+}
+
+.twitter_reply_icon {
+  text-indent: -9999px;                 
+  background-image: url(twitter/twitter-reply.png);  
+  height: 16px;                        
+  width: 16px;
+  white-space: nowrap;
+}
+.twitter_retweet_icon {
+  text-indent: -9999px;                 
+  background-image: url(twitter/twitter-retweet.png);  
+  height: 16px;                        
+  width: 18px;
+  white-space: nowrap;
+}
+
+.twitter_fav_icon {
+  text-indent: -9999px;                 
+  background-image: url(twitter/twitter-favorite.png);  
+  height: 16px;                        
+  width: 16px;
+  white-space: nowrap;
+}
+
+.user a > span {
+  display:none;
+}
+
+.user span span {
+  display: none;
+}
