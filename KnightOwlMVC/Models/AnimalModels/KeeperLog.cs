@@ -1,4 +1,5 @@
 ﻿using System;
+using KnightOwlMVC.Models.StaffModels;
 
 namespace KnightOwlMVC.Models.AnimalModels
 {
