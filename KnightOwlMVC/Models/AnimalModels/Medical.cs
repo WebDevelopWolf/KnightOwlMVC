@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
-namespace KnightOwlMVC.Models.Animal
+namespace KnightOwlMVC.Models.AnimalModels
 {
     public class Medical
     {
@@ -23,6 +20,6 @@ namespace KnightOwlMVC.Models.Animal
 
         public string OutComeOrChange { get; set; }
 
-        public virtual Animal AnimalId { get; set; }
+        public virtual AnimalModels.Animal AnimalId { get; set; }
     }
 }

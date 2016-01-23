@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Configuration;
+using KnightOwlMVC.Models.CustomerModels;
 
-namespace KnightOwlMVC.Models.Animal
+namespace KnightOwlMVC.Models.AnimalModels
 {
     public class RehomingLog
     {
@@ -18,6 +16,6 @@ namespace KnightOwlMVC.Models.Animal
 
         public string Notes { get; set; }
 
-        public virtual Animal AnimalId { get; set; }
+        public virtual AnimalModels.Animal AnimalId { get; set; }
     }
 }
