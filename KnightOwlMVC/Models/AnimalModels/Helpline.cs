@@ -1,4 +1,6 @@
-﻿namespace KnightOwlMVC.Models.AnimalModels
+﻿using KnightOwlMVC.Models.StaffModels;
+
+namespace KnightOwlMVC.Models.AnimalModels
 {
     public class Helpline
     {
@@ -12,11 +14,11 @@
 
         public string Injury { get; set; }
 
-        public string RefferedTo { get; set; }
+        public virtual RescueCentre RescueCentreId { get; set; }
 
         public string Outcome { get; set; }
 
-        public virtual AnimalModels.Animal AnimalId { get; set; }
+        public virtual Animal AnimalId { get; set; }
 
         public virtual Staff StaffId { get; set; }
     }

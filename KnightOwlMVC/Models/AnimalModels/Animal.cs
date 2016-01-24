@@ -8,15 +8,13 @@ namespace KnightOwlMVC.Models.AnimalModels
 
         public string Name {get; set;}
 
-        public string Species { get; set; }
+        public virtual Species SpeciesId { get; set; }
 
-        public string SubSpecies { get; set; }
+        public virtual Enclosure EnclosureId { get; set; }
 
         public DateTime AquiredDate { get; set; }
 
         public Byte[] Picture { get; set; }
-
-        public string Enclosure { get; set; }
 
         public int Age { get; set; }
 
