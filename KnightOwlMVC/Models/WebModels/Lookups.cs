@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -7,6 +8,7 @@ namespace KnightOwlMVC.Models.WebModels
 {
     public class Lookups
     {
+        [ScaffoldColumn(false)]
         public int LookupsId { get; set; }
 
         public string Name { get; set; }
