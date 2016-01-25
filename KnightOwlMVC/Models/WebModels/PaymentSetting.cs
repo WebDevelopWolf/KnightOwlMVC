@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -7,10 +9,14 @@ namespace KnightOwlMVC.Models.WebModels
 {
     public class PaymentSetting
     {
+        [ScaffoldColumn(false)]
         public int PaymentSettingId { get; set; }
 
+        [DisplayName("Toggle Online Booking")]
         public bool OnlineBooking { get; set; }
 
+        [DisplayName("Payment Method")]
+        [Required(ErrorMessage = "Choose a payment method for the online booking site")]
         public string PaymentMethod { get; set; }
 
         public string PayPal { get; set; }
