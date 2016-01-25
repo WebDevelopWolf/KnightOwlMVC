@@ -2,7 +2,7 @@
 {
     public class Relationships
     {
-        public int RelationshipId { get; set; }
+        public int RelationshipsId { get; set; }
 
         public virtual Customer RelatedTo { get; set; }
 

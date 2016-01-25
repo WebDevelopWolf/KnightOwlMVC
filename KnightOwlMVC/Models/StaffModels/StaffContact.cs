@@ -7,7 +7,7 @@ namespace KnightOwlMVC.Models.StaffModels
 {
     public class StaffContact
     {
-        public int ContactId { get; set; }
+        public int StaffContactId { get; set; }
 
         public string Method { get; set; }
 

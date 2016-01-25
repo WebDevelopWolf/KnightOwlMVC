@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace KnightOwlMVC.Models.Animal
+namespace KnightOwlMVC.Models.AnimalModels
 {
     public class MobileEntry
     {

@@ -5,9 +5,9 @@ using System.Web;
 
 namespace KnightOwlMVC.Models.StaffModels
 {
-    public class Medical
+    public class StaffMedical
     {
-        public int MedicalId { get; set; }
+        public int StaffMedicalId { get; set; }
 
         public string MedicalCondition { get; set; }
 

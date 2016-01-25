@@ -173,9 +173,56 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201601242359333_Initial Migration.cs" />
+    <Compile Include="Migrations\201601242359333_Initial Migration.Designer.cs">
+      <DependentUpon>201601242359333_Initial Migration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\AnimalModels\Animal.cs" />
+    <Compile Include="Models\AnimalModels\Enclosure.cs" />
+    <Compile Include="Models\AnimalModels\Feeding.cs" />
+    <Compile Include="Models\AnimalModels\Helpline.cs" />
+    <Compile Include="Models\AnimalModels\KeeperLog.cs" />
+    <Compile Include="Models\AnimalModels\Medical.cs" />
+    <Compile Include="Models\AnimalModels\MobileEntry.cs" />
+    <Compile Include="Models\AnimalModels\RehomingLog.cs" />
+    <Compile Include="Models\AnimalModels\RescueCentre.cs" />
+    <Compile Include="Models\AnimalModels\Species.cs" />
+    <Compile Include="Models\AnimalModels\SubSpecies.cs" />
+    <Compile Include="Models\ConsumerModels\Product.cs" />
+    <Compile Include="Models\ConsumerModels\Stock.cs" />
+    <Compile Include="Models\ConsumerModels\Warehouse.cs" />
+    <Compile Include="Models\CustomerModels\Contact.cs" />
+    <Compile Include="Models\CustomerModels\CustAddress.cs" />
+    <Compile Include="Models\CustomerModels\Customer.cs" />
+    <Compile Include="Models\CustomerModels\Relationships.cs" />
+    <Compile Include="Models\DonationsModels\Donation.cs" />
+    <Compile Include="Models\DonationsModels\Grant.cs" />
+    <Compile Include="Models\DonationsModels\Sponsorship.cs" />
+    <Compile Include="Models\EventsModels\Booking.cs" />
+    <Compile Include="Models\EventsModels\Event.cs" />
+    <Compile Include="Models\EventsModels\EventDays.cs" />
+    <Compile Include="Models\EventsModels\EventMonths.cs" />
+    <Compile Include="Models\EventsModels\Script.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\KnightOwlContext.cs" />
+    <Compile Include="Models\KnightOwlContextInitialiser.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MarketingModels\SocialCampaign.cs" />
+    <Compile Include="Models\MarketingModels\SocialMedia.cs" />
+    <Compile Include="Models\StaffModels\Accident.cs" />
+    <Compile Include="Models\StaffModels\StaffMedical.cs" />
+    <Compile Include="Models\StaffModels\Message.cs" />
+    <Compile Include="Models\StaffModels\Phobia.cs" />
+    <Compile Include="Models\StaffModels\Staff.cs" />
+    <Compile Include="Models\StaffModels\StaffContact.cs" />
+    <Compile Include="Models\WebModels\ApplicationSettings.cs" />
+    <Compile Include="Models\WebModels\Lookups.cs" />
+    <Compile Include="Models\WebModels\MobileSetting.cs" />
+    <Compile Include="Models\WebModels\Notification.cs" />
+    <Compile Include="Models\WebModels\PaymentSetting.cs" />
+    <Compile Include="Models\WebModels\StaffUsers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -400,6 +447,8 @@
     <Content Include="LESS\top_navigation.less" />
     <Content Include="LESS\typography.less" />
     <Content Include="LESS\variables.less" />
+    <None Include="Properties\PublishProfiles\knightowl - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\knightowl - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\demo\chartjs-demo.js" />
     <Content Include="Scripts\demo\dashboard-demo.js" />
@@ -869,8 +918,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
-    <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201601242359333_Initial Migration.resx">
+      <DependentUpon>201601242359333_Initial Migration.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

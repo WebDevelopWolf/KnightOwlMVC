@@ -14,8 +14,6 @@ namespace KnightOwlMVC.Models.StaffModels
 
         public string Surname { get; set; }
 
-        public virtual StaffContact StaffContactId { get; set; }
-
         public string Type {get; set;}
 
         public bool Placement { get; set; }

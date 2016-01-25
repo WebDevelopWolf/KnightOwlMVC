@@ -25,10 +25,6 @@ namespace KnightOwlMVC.Models.EventsModels
 
         public bool Recurring { get; set; }
 
-        public virtual EventMonths EventMonthsId { get; set; }
-
-        public virtual EventDays EventDaysId { get; set; }
-
         public DateTime StartTime { get; set; }
 
         public DateTime EndTime { get; set; }
