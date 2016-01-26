@@ -1,5 +1,37 @@
-﻿@{
+﻿@model KnightOwlMVC.ViewModels.DashboardViewModel
+
+@{
     ViewBag.Title = "Dashboard";
 }
 
-<h1>Test</h1>
+<div class="row  border-bottom white-bg dashboard-header">
+
+    <div class="col-sm-3">
+        <h2>Welcome Liane</h2>
+        <small>You have 0 messages.</small>
+    </div>
+    <div class="col-sm-9">
+        <div class="widget navy-bg p-lg text-center col-sm-3">
+            <div class="m-b-md">
+                <img src="~/img/dash/zookcount.jpg" alt="Zoo Keeper" />
+                <h1 class="m-xs">@Model.ZooKeepCount</h1>
+                <h3 class="font-bold no-margins"> Zoo Keeper </h3>
+            </div>
+        </div>
+        <div class="widget lazur-bg p-lg text-center col-sm-offset-1 col-sm-3">
+            <div class="m-b-md">
+                <img src="~/img/dash/bopcount.jpg" alt="Bird of Prey" />
+                <h1 class="m-xs">@Model.BopCount</h1>
+                <h3 class="font-bold no-margins"> Bird of Prey </h3>
+            </div>
+        </div>
+        <div class="widget yellow-bg p-lg text-center col-sm-offset-1 col-sm-3">
+            <div class="m-b-md">
+                <img src="~/img/dash/othercount.jpg" alt="Other Event" />
+                <h1 class="m-xs">@Model.OtherCount</h1>
+                <h3 class="font-bold no-margins"> Other Event </h3>
+            </div>
+        </div>
+    </div>
+
+</div>

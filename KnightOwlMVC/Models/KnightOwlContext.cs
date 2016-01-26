@@ -75,7 +75,6 @@ namespace KnightOwlMVC.Models
         public DbSet<ApplicationSettings> ApplicationSettings { get; set; }
         public DbSet<Lookups> Lookups { get; set; }
         public DbSet<MobileSetting> MobileSettings { get; set; }
-        public DbSet<Notification> Notifications { get; set; }
         public DbSet<StaffUsers> StaffUsers { get; set; }
         public DbSet<PaymentSetting> PaymentSettings { get; set; }
         #endregion

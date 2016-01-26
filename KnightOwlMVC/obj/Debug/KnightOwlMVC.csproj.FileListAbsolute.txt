@@ -1,72 +1,3 @@
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\roslyn\csc.exe
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\roslyn\Microsoft.CSharp.Core.targets
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\roslyn\System.Collections.Immutable.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\roslyn\System.Reflection.Metadata.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\roslyn\vbc.exe
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\roslyn\VBCSCompiler.exe
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\roslyn\VBCSCompiler.exe.config
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\KnightOwlMVC.dll.config
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\KnightOwlMVC.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\KnightOwlMVC.pdb
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Antlr3.Runtime.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\EntityFramework.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\EntityFramework.SqlServer.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.AspNet.Identity.Core.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.AspNet.Identity.Owin.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Security.Cookies.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Security.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Security.Facebook.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Security.Google.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Security.OAuth.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Security.Twitter.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Web.Infrastructure.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Newtonsoft.Json.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Owin.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\System.Web.Helpers.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\System.Web.Mvc.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\System.Web.Optimization.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\System.Web.Razor.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\System.Web.WebPages.Deployment.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\System.Web.WebPages.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\System.Web.WebPages.Razor.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\WebGrease.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\System.Web.Helpers.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\System.Web.Mvc.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\System.Web.Optimization.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\System.Web.Razor.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\System.Web.WebPages.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\System.Web.WebPages.Deployment.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\System.Web.WebPages.Razor.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Antlr3.Runtime.pdb
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Newtonsoft.Json.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\EntityFramework.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\EntityFramework.SqlServer.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.AspNet.Identity.Core.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.AspNet.Identity.Owin.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Security.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Security.Facebook.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Security.Cookies.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Security.OAuth.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Security.Google.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Security.Twitter.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\obj\Debug\KnightOwlMVC.csprojResolveAssemblyReference.cache
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\obj\Debug\KnightOwlMVC.dll
-c:\users\spike\documents\visual studio 2015\Projects\KnightOwlMVC\KnightOwlMVC\obj\Debug\KnightOwlMVC.pdb
 C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\bin\roslyn\csc.exe
 C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -133,8 +64,6 @@ C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Sec
 C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\obj\Debug\KnightOwlMVC.csprojResolveAssemblyReference.cache
 C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\obj\Debug\KnightOwlMVC.dll
 C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\obj\Debug\KnightOwlMVC.pdb
-C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\obj\Debug\KnightOwlMVC.Migrations.InitialMigration.resources
-C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\obj\Debug\KnightOwlMVC.csproj.GenerateResource.Cache
+C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\obj\Debug\KnightOwlMVC.csprojResolveAssemblyReference.cache

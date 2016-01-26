@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-KnightOwlMVC-20160115094919.mdf;Initial Catalog=aspnet-KnightOwlMVC-20160115094919;Integrated Security=True" tags="SqlConnectionString">
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-KnightOwlMVC-20160115094918.mdf;Initial Catalog=aspnet-KnightOwlMVC-20160115094918;Integrated Security=True" tags="SqlConnectionString">
     <parameterEntry kind="XmlFile" scope="C:\\Users\\spike\\Documents\\GitHub\\KnightOwlMVC\\KnightOwlMVC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
   </parameter>
   <parameter name="KnightOwlMVC.Models.KnightOwlContext-Web.config Connection String" description="KnightOwlMVC.Models.KnightOwlContext Connection String used in web.config by the application to access the database." defaultValue="KnightOwlMVC.Models.KnightOwlContext_ConnectionString" tags="SqlConnectionString">

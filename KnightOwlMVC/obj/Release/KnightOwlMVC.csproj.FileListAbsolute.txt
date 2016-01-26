@@ -64,7 +64,5 @@ C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Sec
 C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\obj\Release\KnightOwlMVC.Migrations.InitialMigration.resources
-C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\obj\Release\KnightOwlMVC.csproj.GenerateResource.Cache
 C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\obj\Release\KnightOwlMVC.dll
 C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\obj\Release\KnightOwlMVC.pdb

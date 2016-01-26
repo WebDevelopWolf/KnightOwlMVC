@@ -8,9 +8,9 @@ namespace KnightOwlMVC.Models.CustomerModels
         [ScaffoldColumn(false)]
         public int RelationshipsId { get; set; }
 
-        [DisplayName("Customer Related To")]
-        [Required(ErrorMessage = "Select a Customer")]
-        public virtual Customer RelatedTo { get; set; }
+        //[DisplayName("Customer Related To")]
+        //[Required(ErrorMessage = "Select a Customer")]
+        //public virtual Customer RelatedTo { get; set; }
 
         [DisplayName("Customer ")]
         [Required(ErrorMessage = "Select a Customer")]
