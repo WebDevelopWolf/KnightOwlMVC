@@ -4,6 +4,9 @@
     ViewBag.Title = "Dashboard";
 }
 
+<script src="~/scripts/twitterFetcher_v10_min.js"></script>
+<link href="~/Content/css/twitter-styles.css" rel="stylesheet" />
+
 <div class="row  border-bottom white-bg dashboard-header">
 
     <div class="col-sm-3">
@@ -13,21 +16,21 @@
     <div class="col-sm-9">
         <div class="widget navy-bg p-lg text-center col-sm-3">
             <div class="m-b-md">
-                <img src="~/img/dash/zookcount.jpg" alt="Zoo Keeper" />
+                <img src="~/img/dash/zookcount.jpg" alt="Zoo Keeper"/>
                 <h1 class="m-xs">@Model.ZooKeepCount</h1>
                 <h3 class="font-bold no-margins"> Zoo Keeper </h3>
             </div>
         </div>
         <div class="widget lazur-bg p-lg text-center col-sm-offset-1 col-sm-3">
             <div class="m-b-md">
-                <img src="~/img/dash/bopcount.jpg" alt="Bird of Prey" />
+                <img src="~/img/dash/bopcount.jpg" alt="Bird of Prey"/>
                 <h1 class="m-xs">@Model.BopCount</h1>
                 <h3 class="font-bold no-margins"> Bird of Prey </h3>
             </div>
         </div>
         <div class="widget yellow-bg p-lg text-center col-sm-offset-1 col-sm-3">
             <div class="m-b-md">
-                <img src="~/img/dash/othercount.jpg" alt="Other Event" />
+                <img src="~/img/dash/othercount.jpg" alt="Other Event"/>
                 <h1 class="m-xs">@Model.OtherCount</h1>
                 <h3 class="font-bold no-margins"> Other Event </h3>
             </div>
@@ -35,3 +38,53 @@
     </div>
 
 </div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="wrapper wrapper-content">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>A little birdy told me...</h5>
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <i class="fa fa-wrench"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-user">
+                                    <li>
+                                        <a href="@Url.Action("Index", "Social")">Manage Social Media</a>
+                                    </li>
+                                </ul>
+                                <a class="close-link">
+                                    <i class="fa fa-times"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="twitterAPI" class="ibox-content no-padding">
+                            <div id="tweets"></div>
+                        </div>
+                    </div>
+                </div>
+                @* TODO: Add To do List *@
+
+                @* TODO: Add Keeper Log *@
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/plugins/jquery-ui/jquery-ui.min.js"></script>
+
+<script>
+        $(document).ready(function () {
+
+            $(".sortable-list").sortable({
+                connectWith: ".connectList"
+            }).disableSelection();
+
+        });
+</script>
