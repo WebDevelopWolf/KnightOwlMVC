@@ -1,0 +1,41 @@
+﻿@model IEnumerable<KnightOwlMVC.Models.StaffModels.ToDo>
+
+@{
+    Layout = null;
+}
+
+<div class="col-lg-4">
+    <div class="ibox float-e-margins">
+        <div class="ibox-title">
+            <h5>To-Do</h5>
+            <div class="ibox-tools">
+                <a class="collapse-link">
+                    <i class="fa fa-chevron-up"></i>
+                </a>
+                <a class="close-link">
+                    <i class="fa fa-times"></i>
+                </a>
+            </div>
+        </div>
+        <div class="ibox-content">
+            <p class="small"><i class="fa fa-hand-o-up"></i> Drag tasks to re-order them</p>
+
+            <ul class="sortable-list connectList agile-list ui-sortable">
+            @foreach (var item in Model)
+            {
+                <li style="" class="@item.Priority">
+                    @item.Text
+                    <div class="agile-detail">
+                        @Html.ActionLink("Done", "Complete", new { id = item.ToDoId, @class = "pull-right btn btn-xs btn-primary" } )
+                        <i class="fa fa-clock-o"></i> @item.Date
+                    </div>
+                </li>
+            }
+            </ul>
+        </div>
+    </div>
+</div>
+    
+    
+    
+    

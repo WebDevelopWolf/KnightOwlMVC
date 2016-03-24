@@ -171,6 +171,7 @@
     <Compile Include="Controllers\EventsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ToDoesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -214,6 +215,7 @@
     <Compile Include="Models\StaffModels\Phobia.cs" />
     <Compile Include="Models\StaffModels\Staff.cs" />
     <Compile Include="Models\StaffModels\StaffContact.cs" />
+    <Compile Include="Models\StaffModels\ToDo.cs" />
     <Compile Include="Models\WebModels\ApplicationSettings.cs" />
     <Compile Include="Models\WebModels\Lookups.cs" />
     <Compile Include="Models\WebModels\MobileSetting.cs" />
@@ -906,10 +908,13 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Scripts\plugins\diff_match_patch\COPYING" />
     <Content Include="Scripts\plugins\justified-gallery\README.md" />
+    <Content Include="Views\ToDoes\Create.cshtml" />
+    <Content Include="Views\Shared\_ToDo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Events\" />
+    <Folder Include="Views\Todo\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

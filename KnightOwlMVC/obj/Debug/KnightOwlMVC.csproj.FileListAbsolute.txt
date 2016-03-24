@@ -67,3 +67,5 @@ C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\bin\Microsoft.Owin.Sec
 C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\obj\Debug\KnightOwlMVC.dll
 C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\obj\Debug\KnightOwlMVC.pdb
 C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\obj\Debug\KnightOwlMVC.csprojResolveAssemblyReference.cache
+C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\obj\Debug\KnightOwlMVC.Migrations.KOMig.resources
+C:\Users\spike\Documents\GitHub\KnightOwlMVC\KnightOwlMVC\obj\Debug\KnightOwlMVC.csproj.GenerateResource.Cache

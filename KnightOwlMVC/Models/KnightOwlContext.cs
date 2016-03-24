@@ -78,5 +78,7 @@ namespace KnightOwlMVC.Models
         public DbSet<StaffUsers> StaffUsers { get; set; }
         public DbSet<PaymentSetting> PaymentSettings { get; set; }
         #endregion
+
+        public System.Data.Entity.DbSet<KnightOwlMVC.Models.StaffModels.ToDo> ToDoes { get; set; }
     }
 }

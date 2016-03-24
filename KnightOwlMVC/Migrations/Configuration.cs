@@ -10,7 +10,7 @@ namespace KnightOwlMVC.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            AutomaticMigrationDataLossAllowed = true;
+            this.CommandTimeout = 60 * 5;
         }
 
         protected override void Seed(KnightOwlMVC.Models.KnightOwlContext context)

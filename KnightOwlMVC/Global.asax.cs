@@ -17,6 +17,8 @@ namespace KnightOwlMVC
             //Test Data - ALWAYS TURN OFF IN PRODUCTION
             //Database.SetInitializer<KnightOwlContext>(new KnightOwlContextInitialiser());
 
+            Database.SetInitializer<Models.KnightOwlContext>(null);
+
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
